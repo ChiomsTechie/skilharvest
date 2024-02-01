@@ -1,0 +1,36 @@
+form{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group{
+  margin: 10px 0;
+}
+
+.form-label{
+  display: block;
+}
+
+input{
+  padding: 8px 10px;
+  background-color: whitesmoke;
+  border: 0;
+}
+
+.button{
+  border: 0;
+  padding: 10px 13px;
+  background: black;
+  font-size: 12px;
+  color: white;
+}
+
+.err{
+  padding: 10px;
+  background: hotpink;
+  color: white;
+  text-align: center;
+}
